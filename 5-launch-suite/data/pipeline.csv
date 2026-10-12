@@ -1,0 +1,44 @@
+opp_id,account,type,segment,stage,amount_eur,close_date,owner,sdr,source,competitor,created,last_activity,next_step,roadmap_items,notes
+OPP-2611,Klarälven Kvarn,New business,IP,Proposal,19500,2026-10-09,Erik Lindqvist,Oskar Ek,Outbound,Klimatly,2026-08-27,2026-09-30,Signature expected week 41,,"Verbal on the proposal call, 30 Sep: 19,500 from November, the supplier block from January. Their purchasing manager was sold by the supplier comparison in the technical deep dive."
+OPP-2584,Kärnhuset Group,New business,MB,Negotiation,39000,2026-10-09,Sofia Bergström,Maja Sandberg,Outbound,Verdanta,2026-06-15,2026-09-21,Tender decision 9 Oct,RL-300,Back on the tender with a date after going quiet. The board asked about access per brand and about scenario modelling. Told them brand level views are 2027 and scenario comparison is early access only.
+OPP-2638,Nordlys Matgruppen,New business,MB,Discovery,46000,2027-01-29,Sofia Bergström,,Inbound: website form,Consultant,2026-09-30,2026-10-02,Written page on own brand claims for Fredrik; solutions call week 42,RL-501; RL-500; RL-401,"Twelve brands, about 400M, a third own brand for three grocers. Anna's board will ask what they can do about it. She emailed after the call: the board meets 10 December and she wants to show them the group view where you swap a supplier. Told her early access opens in November for a first group. If they can be in it, Q1 close. If not, it slips to the second half. Above the price band: needs Henrik's approval."
+OPP-2629,Björkviks Bröd,New business,IP,Evaluation,16000,2026-11-20,Anders Holm,Oskar Ek,Inbound: website form,Verdanta,2026-09-18,2026-09-23,Find out what Verdanta showed them,,Seeing Verdanta in week 40.
+OPP-2621,Österlens Musteri,New business,IP,Discovery,14000,2026-12-18,Anders Holm,Maja Sandberg,Inbound: blog (BLOG-3),,2026-09-04,2026-09-08,Demo in week 42,,"Glass or cans. Supermarket questionnaire, end of year."
+OPP-2623,Gotlandskött,New business,IP,Evaluation,19000,2026-11-27,Erik Lindqvist,Oskar Ek,Inbound: blog (BLOG-4),,2026-09-09,2026-10-01,Proposal before 20 Oct,RL-401,"Grocer's own brand range review, date 1 December, consequence about a fifth of revenue. Wants the figures in the grocer's own scorecard format."
+OPP-2624,Gotlandskött,New business,IP,Qualified,19000,2026-12-31,Oskar Ek,Oskar Ek,Inbound: blog (BLOG-4),,2026-09-10,2026-09-10,,,
+OPP-2627,Norrlands Bär,New business,IP,Qualified,14500,2026-12-11,Erik Lindqvist,Maja Sandberg,Inbound: website form,Free tool,2026-09-16,2026-09-17,Demo,,"Smoothie brand's questionnaire, per kilo for lingonberry and blueberry, end of year."
+OPP-2630,Vetebolaget,New business,IP,Qualified,17000,2027-02-26,Anders Holm,Maja Sandberg,Inbound: website form,Association tool,2026-09-19,2026-09-21,Discovery with head of quality and sales director,,Largest bakery customer's purchasing director wants product figures by end of March.
+OPP-2633,Hallandsost,New business,IP,Qualified,18500,2027-03-12,Erik Lindqvist,Maja Sandberg,Inbound: website form,,2026-09-28,2026-09-29,Discovery; Karin forwarding the grocer's spreadsheet,,"Cooperative, about 60 member farms. Board signs above a threshold."
+OPP-2636,Solvik Dryck,New business,IP,Qualified,15000,2027-01-22,Anders Holm,Oskar Ek,Inbound: guide (GUIDE),,2026-09-30,2026-10-01,Discovery,,Named buyer at a convenience chain. Per bottle by February.
+OPP-2625,Skärgårdsfisk,New business,IP,Nurture,15000,,Anders Holm,Oskar Ek,Outbound,,2026-09-14,2026-09-15,Call back if the form has teeth,,
+OPP-2631,Mälardalens Grönt,New business,IP,Nurture,13000,,Anders Holm,Oskar Ek,Outbound,,2026-09-23,2026-09-24,Call back after harvest,,
+OPP-2602,Kryddhuset,Win back,IP,Discovery,15000,2026-12-04,Anders Holm,,Customer success,Consultant,2026-08-27,2026-08-27,,,Win back call 27 Aug.
+OPP-2612,Handelsbolaget Nord,Expansion,GR,Proposal,18000,2026-11-13,Sofia Bergström,,Customer success,,2026-09-03,2026-09-16,They choose between two options,RL-401; RL-500,"Own brand claims. Two options: suppliers answer in Rootline's format, or Rootline takes theirs. Maria asked whether they could swap one manufacturer for another and see what the claim looks like."
+OPP-2614,Sydfood Group,Expansion,MB,Evaluation,9000,2026-12-18,Sofia Bergström,,Customer success,,2026-09-09,2026-09-09,Wait for the consolidation fix,RL-203,Wants to add brands five and six. Will not until consolidation stops timing out at five. Jonas says December.
+OPP-2617,Nordkost Holding,Expansion,MB,Discovery,12000,2027-02-26,Sofia Bergström,,Customer success,,2026-09-24,2026-10-01,COO's October sourcing review,RL-501; RL-500,In the early access group for scenario comparison. More brands on the Group package if early access goes well.
+OPP-2606,Måltidsfabriken,Expansion,IP,Discovery,,2026-12-09,Erik Lindqvist,,Customer success,,2026-08-25,2026-08-25,,,Expansion discussed on the 25 Aug call.
+REN-1041,Renhold Nordic,Renewal,NF,At risk (red),16000,2026-11-27,Daniel Ohlsson,,,,,,,,Non food. Expect notice.
+REN-1042,Måltidsfabriken,Renewal,IP,At risk (amber),19000,2026-12-09,Daniel Ohlsson,,,,,,,,
+REN-1043,Källvatten AB,Renewal,IP,At risk (amber),15000,2026-12-15,Lina Forsberg,,,,,,,,
+REN-1044,Sjöland Brands,Renewal,MB,At risk (amber),34000,2026-11-11,Daniel Ohlsson,,,,,,,RL-300,Brand managers want their own view of their brand. Asked twice when brand level read only views come. Told 2027.
+REN-1045,Solhaga Dryck,Renewal,IP,Commit,15500,2026-10-14,Lina Forsberg,,,,,,,,
+REN-1046,Rönnbäck Fisk,Renewal,IP,Commit,22000,2026-10-09,Petra Nyström,,,,,,,,
+REN-1047,Bjärehalvöns Grönt,Renewal,IP,Commit,18000,2026-11-27,Daniel Ohlsson,,,,,,,,
+REN-1048,Tallbacka Ägg,Renewal,IP,Commit,17000,2026-12-04,Daniel Ohlsson,,,,,,,,
+REN-1049,Skogsbär Nordic,Renewal,IP,Commit,18500,2026-12-09,Daniel Ohlsson,,,,,,,,
+OPP-2588,Hälsinge Mejeri,New business,IP,Discovery,18000,2026-12-18,Erik Lindqvist,Maja Sandberg,Outbound,,2026-07-06,2026-09-29,Second meeting with the quality manager,,
+OPP-2618,Värmlands Potatis,New business,IP,Qualified,14000,2027-01-29,Anders Holm,Oskar Ek,Outbound,,2026-09-08,2026-09-08,,,
+OPP-2596,Kalmar Sill,New business,IP,Evaluation,16500,2026-11-27,Erik Lindqvist,Maja Sandberg,Referral (Ostkusten Sjömat),Klimatly,2026-08-03,2026-09-28,Reference call with Ostkusten,,Referred by Ostkusten Sjömat's quality manager.
+OPP-2632,Uppsala Havre,New business,IP,Discovery,15500,2026-12-11,Anders Holm,Oskar Ek,Inbound: blog (BLOG-4),,2026-09-22,2026-09-30,Demo,,
+OPP-2620,Jämtlands Kött,New business,IP,Qualified,17500,2027-02-12,Erik Lindqvist,Maja Sandberg,Outbound,,2026-09-11,2026-09-11,,,
+OPP-2626,Bornholm Røgeri,New business,IP,Discovery,14500,2027-01-15,Erik Lindqvist,Oskar Ek,Inbound: website form,,2026-09-15,2026-09-25,,,
+OPP-2579,Trøndelag Meieri,New business,IP,Evaluation,22000,2026-12-04,Erik Lindqvist,Maja Sandberg,Outbound,Klimatly,2026-06-08,2026-09-24,Pricing questions from their CFO,RL-500,Wants the comparison of two milk suppliers we showed; asked whether it works across their three dairies at once.
+OPP-2634,Savo Marja,New business,IP,Qualified,13500,2027-02-26,Anders Holm,Oskar Ek,Inbound: website form,,2026-09-29,2026-09-29,,,
+OPP-2571,Linköpings Pasta,New business,IP,Proposal,16000,2026-10-23,Anders Holm,Maja Sandberg,Outbound,,2026-07-20,2026-09-30,Follow up on the proposal,,
+OPP-2615,Göta Konfektyr,New business,IP,Discovery,15000,2026-12-18,Anders Holm,Oskar Ek,Outbound,,2026-09-07,2026-09-22,,,
+OPP-2635,Söderåsens Juice,New business,IP,Qualified,13000,2027-01-29,Anders Holm,Maja Sandberg,Inbound: website form,,2026-09-29,2026-09-29,,,
+OPP-2604,Roslags Fisk,New business,IP,Evaluation,15000,2026-11-13,Erik Lindqvist,Oskar Ek,Outbound,,2026-08-24,2026-09-29,Second demo with the owner,,
+OPP-2628,Västgöta Bryggeri,New business,IP,Discovery,14000,2026-12-11,Anders Holm,Maja Sandberg,Inbound: website form,,2026-09-17,2026-09-28,,,
+OPP-2566,Lapplands Vilt,New business,IP,Proposal,17500,2026-09-30,Erik Lindqvist,Oskar Ek,Outbound,,2026-07-06,2026-09-02,,,
+OPP-2609,Vikbolandet Foods,New business,MB,Discovery,31000,2027-03-26,Sofia Bergström,Maja Sandberg,Outbound,Verdanta,2026-08-31,2026-09-25,Meet the brand managers,RL-300,Five brands. Brand managers will want their own view.
+OPP-2637,Tornedal Group,New business,MB,Qualified,36000,2027-04-30,Sofia Bergström,Oskar Ek,Inbound: website form,Verdanta,2026-09-30,2026-10-01,Discovery,RL-500,Form said: 'we need to model switching suppliers across the group before our 2027 targets'. Oskar told them early access only.

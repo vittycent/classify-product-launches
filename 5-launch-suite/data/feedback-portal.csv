@@ -1,0 +1,123 @@
+feedback_id,submitted,account,submitted_by,source,title,description,product_area,status,merged_into,votes_accounts,roadmap_id,demand_id,pm_owner,pm_responded,pm_response
+FB-030,2026-01-07,Fjällmat AB,Environmental coordinator,CSM on behalf of customer,Recipe import with sub recipes,,Products,Shipped,,3,RL-007,D-09,Nadia Rask,2026-02-23,Shipped 23 February.
+FB-005,2026-01-08,Nordhavet Group,Sustainability manager,CSM on behalf of customer,Consolidate groups with more than four entities,Group consolidation times out at five companies.,Footprint,In progress,,8,RL-203,D-03,Jonas Wik,2026-05-20,"Needs a change in how consolidation is calculated. In build, planned for later this year."
+FB-026,2026-01-08,Nordkost Holding,Quality manager,CSM on behalf of customer,Single sign on,Our IT department requires it.,Platform,Shipped,,6,RL-020,D-23,Jonas Wik,2026-05-04,Shipped 4 May on Supply and Group.
+FB-031,2026-01-12,Strömsholm Foods,Purchasing manager,CSM on behalf of customer,Board summary for the reporting year,,Footprint,Shipped,,3,RL-005,D-12,Jonas Wik,2026-02-16,Shipped 16 February.
+FB-036,2026-01-14,Havsfisk Nord,Sustainability manager,CSM on behalf of customer,Faster imports,,Footprint,Shipped,,8,RL-201,D-03,Jonas Wik,2026-06-15,Shipped 15 June: imports about twice as fast.
+FB-027,2026-01-15,Rapsverket,Purchasing manager,CSM on behalf of customer,Compare two suppliers of the same material,,Supplier,Shipped,,4,RL-016,D-01,Samir Haddad,2026-04-13,Shipped 13 April.
+FB-012,2026-01-21,Nordvik Dairy,Quality manager,CSM on behalf of customer,Send supplier requests in our name,With our logo and the sustainability manager's signature.,Supplier,Planned,,8,RL-045,D-08,Samir Haddad,2026-06-30,Planned for November.
+FB-032,2026-01-26,Älvdals Mejeri,Environmental coordinator,CSM on behalf of customer,Farm level records behind a cooperative,,Supplier,Shipped,,4,RL-022,D-08,Samir Haddad,2026-05-11,Shipped 11 May.
+FB-014,2026-01-28,Bergstrand Group,Purchasing manager,CSM on behalf of customer,Save column mappings for supplier files,"Same supplier, same spreadsheet, mapped again every quarter.",Supplier,Planned,,5,RL-047,D-09,Samir Haddad,2026-08-05,Planned for November.
+FB-028,2026-01-29,Myrbacka Kött,Sustainability manager,CSM on behalf of customer,What if we change origin for one product,,Products,Shipped,,2,RL-015,D-01,Nadia Rask,2026-04-13,Shipped 13 April.
+FB-035,2026-02-05,Hallands Mejeri,Purchasing manager,CSM on behalf of customer,Export file names with product and date,,Products,Shipped,,3,RL-030,D-04,Nadia Rask,2026-08-31,Shipped 31 August.
+FB-013,2026-02-09,Rapsverket,Quality manager,In app widget,Approve the wording before requests go out,We want to check the text before our farmers see it.,Supplier,Shipped,,6,RL-033,D-08,Samir Haddad,2026-09-28,Shipped 28 September.
+FB-042,2026-02-10,Bryggeri Kvarnen,Environmental coordinator,In app widget,Also asking for: send supplier requests in our name,,Supplier,Merged,FB-012,,RL-045,D-08,Samir Haddad,,
+FB-006,2026-02-11,Strömsholm Foods,Environmental coordinator,In app widget,Access per brand for brand managers,Read only access to one brand or entity without seeing the rest of the group.,Footprint,In progress,,12,RL-300,D-05,Jonas Wik,2026-08-26,In design. Build starts after the interface refresh; release planned for 2027.
+FB-043,2026-02-11,Rönnbäck Fisk,Purchasing manager,CSM on behalf of customer,Send supplier requests in our name,,Supplier,Merged,FB-012,,RL-045,D-08,Samir Haddad,,
+FB-029,2026-02-12,Sydfood Group,Purchasing manager,In app widget,Invitations from a named sender,Our suppliers think the noreply email is spam.,Supplier,Shipped,,7,RL-031,D-15,Jonas Wik,2026-09-01,Shipped 1 September.
+FB-007,2026-02-24,Matkedjan Syd,Environmental coordinator,CSM on behalf of customer,Export in our grocer's scorecard format,Fill in the grocer's supplier scorecard straight from Rootline.,Products,In progress,,10,RL-401,D-06,Nadia Rask,2026-08-12,In build. The first grocer format ships in November.
+FB-044,2026-02-25,Charkbolaget,Sustainability manager,In app widget,+1: invitations from a named sender,,Supplier,Merged,FB-029,,RL-031,D-15,Jonas Wik,,
+FB-045,2026-03-01,Solhaga Dryck,Quality manager,In app widget,Please add: consolidate groups with more than four entities,,Footprint,Merged,FB-005,,RL-203,D-03,Jonas Wik,,
+FB-046,2026-03-02,Sjöland Brands,Sustainability manager,CSM on behalf of customer,+1: send supplier requests in our name,,Supplier,Merged,FB-012,,RL-045,D-08,Samir Haddad,,
+FB-020,2026-03-03,Fjordmelk AS,Quality manager,In app widget,Keep data flags in exports,Which numbers are supplier data and which are averages.,Products,In progress,,5,RL-035,D-04,Nadia Rask,2026-09-02,"In build, October."
+FB-033,2026-03-04,Hallands Mejeri,Sustainability manager,In app widget,Shorter questionnaire for farms,Twelve questions is too many for a farmer.,Supplier,Shipped,,5,RL-028,D-08,Samir Haddad,2026-06-29,Shipped 29 June: seven questions.
+FB-016,2026-03-05,Lindholm Brands,Quality manager,CSM on behalf of customer,Factor version on every report line,Our auditor asks which factor version is behind each number.,Footprint,Planned,,5,RL-043,D-10,Jonas Wik,2026-07-01,Planned for November.
+FB-003,2026-03-11,Havsfisk Nord,Environmental coordinator,In app widget,Open the supplier list sorted by emissions,"Biggest emitters first, not A to Z.",Supplier,In progress,,7,RL-034,D-02,Samir Haddad,2026-09-08,Pulled forward. Default sort by emissions ships in October.
+FB-002,2026-03-12,Aalborg Food Group,Sustainability manager,In app widget,A reduction plan with costs per measure,"Show which measures reduce our footprint, what each costs per tonne and a path to our 2030 target.",Footprint,Under review,,13,RL-700,D-01,Pontus Grahn,2026-08-18,We are exploring this. It is not in the next four quarters: we chose scenario comparison first because it uses the supplier data customers already have. We will say so plainly when that changes.
+FB-047,2026-03-13,Kvarnbolaget,Purchasing manager,Sales on behalf of prospect,Also asking for: export in our grocer's scorecard format,,Products,Merged,FB-007,,RL-401,D-06,Nadia Rask,,
+FB-048,2026-03-15,Matkedjan Syd,Sustainability manager,In app widget,+1: keep data flags in exports,,Products,Merged,FB-020,,RL-035,D-04,Nadia Rask,,
+FB-022,2026-03-16,Kvarnbolaget,Sustainability manager,CSM on behalf of customer,Locked features should say why,Greyed out buttons look broken.,Platform,In progress,,3,RL-037,D-04,Jonas Wik,2026-09-02,"In build, October."
+FB-021,2026-03-19,Choklad Nord,Controller,CSM on behalf of customer,Material names instead of codes in exports,,Products,Planned,,4,RL-038,D-06,Nadia Rask,2026-09-02,Planned for October.
+FB-049,2026-03-23,Isbergs Glass,Sustainability manager,CSM on behalf of customer,+1: shorter questionnaire for farms,,Supplier,Merged,FB-033,,RL-028,D-08,Samir Haddad,,
+FB-040,2026-03-26,Renhold Nordic,Sustainability analyst,In app widget,Factors for cleaning products and packaging,,Products,Under review,,2,RL-710,D-17,Pontus Grahn,2026-09-15,We are looking at markets beyond food and beverage; nothing planned.
+FB-008,2026-04-02,Havsfisk Nord,Sustainability manager,CSM on behalf of customer,Importer documentation for export markets,Paperwork importers outside the EU ask for.,Products,Planned,,4,RL-402,D-06,Nadia Rask,2026-08-12,"In design, after the grocer scorecard format."
+FB-050,2026-04-05,Dalarnas Charkuteri,Controller,Sales on behalf of prospect,Please add: farm level records behind a cooperative,,Supplier,Merged,FB-032,,RL-022,D-08,Samir Haddad,,
+FB-034,2026-04-08,Handelsbolaget Nord,Environmental coordinator,In app widget,Templates for the new reporting scope,,Footprint,Shipped,,6,RL-027,D-19,Jonas Wik,2026-06-22,Shipped 22 June.
+FB-051,2026-04-09,Tallbacka Ägg,Quality manager,CSM on behalf of customer,Also asking for: compare two suppliers of the same material,,Supplier,Merged,FB-027,,RL-016,D-01,Samir Haddad,,
+FB-001,2026-04-09,Lindholm Brands,Sustainability manager,In app widget,Model switching suppliers across the group,"Swap one supplier for another and see what happens to the group total, not just one product.",Supplier,In progress,,17,RL-500,D-01,Samir Haddad,2026-08-24,"In design. Early access for a first group of customers in November. No general release date yet, and we won't give one until early access has run."
+FB-017,2026-04-15,Bergstrand Group,Quality manager,CSM on behalf of customer,Change log an assurance provider can read,"Every change to last year's numbers, exported.",Footprint,Planned,,4,RL-050,D-10,Jonas Wik,2026-07-01,Planned for December.
+FB-052,2026-04-18,Sydfood Group,Environmental coordinator,In app widget,+1: factor version on every report line,,Footprint,Merged,FB-016,,RL-043,D-10,Jonas Wik,,
+FB-053,2026-04-18,Nordpack Solutions,Sustainability manager,CSM on behalf of customer,Also asking for: factors for cleaning products and packaging,,Products,Merged,FB-040,,RL-710,D-17,Pontus Grahn,,
+FB-054,2026-04-20,Sjöland Brands,Sustainability manager,In app widget,Please add: keep data flags in exports,,Products,Merged,FB-020,,RL-035,D-04,Nadia Rask,,
+FB-004,2026-04-22,Fjordlaks AS,Environmental coordinator,In app widget,Show progress on long uploads,A progress bar or message so we know a big import is still running.,Footprint,In progress,,8,RL-202,D-03,Jonas Wik,2026-07-06,Planned after the speed improvements. In build now.
+FB-018,2026-04-22,Nordkost Holding,Sustainability manager,In app widget,Who logged in this quarter,Admin view of seat use.,Footprint,Planned,,4,RL-041,D-05,Jonas Wik,2026-07-01,Planned for November.
+FB-055,2026-04-24,Strömsholm Foods,Environmental coordinator,In app widget,Please add: a reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-056,2026-04-27,Hallands Mejeri,Controller,CSM on behalf of customer,Also asking for: faster imports,,Footprint,Merged,FB-036,,RL-201,D-03,Jonas Wik,,
+FB-057,2026-04-28,Ölands Kvarn,Controller,In app widget,Also asking for: faster imports,,Footprint,Merged,FB-036,,RL-201,D-03,Jonas Wik,,
+FB-025,2026-04-29,Tre Kronor Foods,Purchasing manager,CSM on behalf of customer,Quarterly supplier ranking for purchasing,One page our purchasing team can use in supplier reviews.,Supplier,In progress,,5,RL-036,D-12,Samir Haddad,2026-09-08,"In build, October."
+FB-058,2026-05-01,Rugbrød Nord,Sustainability manager,In app widget,Please add: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-059,2026-05-03,Bagerhuset Lund,Sustainability manager,Sales on behalf of prospect,Please add: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-009,2026-05-06,Nordolie AS,Sustainability manager,In app widget,Exports in the same units as the product page,"Per pack, per kilo, per litre in the export.",Products,Planned,,6,RL-049,D-13,Nadia Rask,2026-07-15,Planned for December.
+FB-041,2026-05-07,Vanilj & Co,Quality manager,CSM on behalf of customer,Do the first year for us,We don't have anyone to run this. Could Rootline do it?,Platform,Declined,,3,,,Pontus Grahn,2026-06-02,Not something the product will do. Passed to customer success.
+FB-060,2026-05-10,Fjordlaks AS,Purchasing manager,In app widget,Please add: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-015,2026-05-13,Nordvik Dairy,Purchasing manager,CSM on behalf of customer,Hotspots: what to do next,After the number: where are the biggest sources and what do others do about them?,Footprint,Planned,,7,RL-048,D-01,Jonas Wik,2026-08-20,Planned for December.
+FB-061,2026-05-17,Rapsverket,Purchasing manager,In app widget,Model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-037,2026-05-19,Bryggeri Kvarnen,Controller,In app widget,Carbon figure on pack for consumers,Two of our shelf competitors print a number on the can.,Products,Declined,,4,RL-800,D-18,Nadia Rask,2026-07-22,"Not planned. Consumer facing claims carry legal risk we can't stand behind for every product, and customers' customers ask for the underlying data, not a label."
+FB-062,2026-05-21,Solhaga Dryck,Sustainability manager,Sales on behalf of prospect,Please add: a reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-010,2026-05-21,Nordolie AS,Sustainability manager,In app widget,See and edit unit conversions,"Where does the app convert litres to kilos, and can we change it?",Products,Planned,,4,RL-040,D-13,Nadia Rask,2026-07-15,Planned for November.
+FB-063,2026-05-22,Vindeln Dryck,Sustainability manager,In app widget,Also asking for: faster imports,,Footprint,Merged,FB-036,,RL-201,D-03,Jonas Wik,,
+FB-064,2026-05-23,Ölands Kvarn,Sustainability manager,In app widget,Also asking for: access per brand for brand managers,,Footprint,Merged,FB-006,,RL-300,D-05,Jonas Wik,,
+FB-065,2026-05-24,Essens AB,Sustainability manager,In app widget,+1: a reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-024,2026-05-27,Rapsverket,Sustainability manager,CSM on behalf of customer,Supplier answers keep their unit,,Supplier,Planned,,3,RL-051,D-13,Samir Haddad,2026-08-05,Planned for December.
+FB-066,2026-05-28,Rapsverket,Sustainability manager,In app widget,+1: invitations from a named sender,,Supplier,Merged,FB-029,,RL-031,D-15,Jonas Wik,,
+FB-067,2026-05-28,Källvatten AB,Environmental coordinator,Sales on behalf of prospect,Also asking for: approve the wording before requests go out,,Supplier,Merged,FB-013,,RL-033,D-08,Samir Haddad,,
+FB-068,2026-05-29,Lingonriket,Purchasing manager,CSM on behalf of customer,Also asking for: export in our grocer's scorecard format,,Products,Merged,FB-007,,RL-401,D-06,Nadia Rask,,
+FB-069,2026-05-30,Renhold Nordic,Environmental coordinator,In app widget,+1: consolidate groups with more than four entities,,Footprint,Merged,FB-005,,RL-203,D-03,Jonas Wik,,
+FB-070,2026-05-30,Bjärehalvöns Grönt,Controller,CSM on behalf of customer,Please add: consolidate groups with more than four entities,,Footprint,Merged,FB-005,,RL-203,D-03,Jonas Wik,,
+FB-071,2026-06-03,Bagerhuset Lund,Sustainability manager,In app widget,+1: show progress on long uploads,,Footprint,Merged,FB-004,,RL-202,D-03,Jonas Wik,,
+FB-011,2026-06-03,Tre Kronor Foods,Environmental coordinator,In app widget,Explain the change on every article,"Split each article's change from last year into factor update, recipe change and supplier change.",Products,Planned,,5,RL-046,D-14,Nadia Rask,2026-09-02,Planned for November.
+FB-072,2026-06-05,Nordic Brew Collective,Quality manager,In app widget,+1: a reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-073,2026-06-05,Charkbolaget,Quality manager,In app widget,Recipe import with sub recipes,,Products,Merged,FB-030,,RL-007,D-09,Nadia Rask,,
+FB-074,2026-06-06,Hallands Mejeri,Controller,CSM on behalf of customer,Also asking for: approve the wording before requests go out,,Supplier,Merged,FB-013,,RL-033,D-08,Samir Haddad,,
+FB-075,2026-06-06,Strömsholm Foods,Sustainability manager,Sales on behalf of prospect,Templates for the new reporting scope,,Footprint,Merged,FB-034,,RL-027,D-19,Jonas Wik,,
+FB-076,2026-06-07,Sydfood Group,Sustainability manager,CSM on behalf of customer,Shorter questionnaire for farms,,Supplier,Merged,FB-033,,RL-028,D-08,Samir Haddad,,
+FB-038,2026-06-10,Nordpack Solutions,Quality manager,CSM on behalf of customer,Packaging chemicals (PFAS),,Products,Declined,,1,RL-810,D-17,Nadia Rask,2026-07-22,Not planned: outside food and beverage data.
+FB-077,2026-06-10,Havsfisk Nord,Sustainability manager,CSM on behalf of customer,Please add: exports in the same units as the product page,,Products,Merged,FB-009,,RL-049,D-13,Nadia Rask,,
+FB-078,2026-06-11,Choklad Nord,Sustainability analyst,In app widget,Please add: show progress on long uploads,,Footprint,Merged,FB-004,,RL-202,D-03,Jonas Wik,,
+FB-079,2026-06-13,Havreland,Purchasing manager,In app widget,Importer documentation for export markets,,Products,Merged,FB-008,,RL-402,D-06,Nadia Rask,,
+FB-080,2026-06-15,Nordolie AS,Sustainability manager,In app widget,Please add: access per brand for brand managers,,Footprint,Merged,FB-006,,RL-300,D-05,Jonas Wik,,
+FB-081,2026-06-15,Ärtriket,Purchasing manager,In app widget,Please add: invitations from a named sender,,Supplier,Merged,FB-029,,RL-031,D-15,Jonas Wik,,
+FB-082,2026-06-21,Handelsbolaget Nord,Sustainability analyst,Sales on behalf of prospect,+1: locked features should say why,,Platform,Merged,FB-022,,RL-037,D-04,Jonas Wik,,
+FB-083,2026-06-21,Torpa Choklad,Sustainability analyst,Sales on behalf of prospect,+1: material names instead of codes in exports,,Products,Merged,FB-021,,RL-038,D-06,Nadia Rask,,
+FB-084,2026-06-21,Hallands Mejeri,Purchasing manager,In app widget,Single sign on,,Platform,Merged,FB-026,,RL-020,D-23,Jonas Wik,,
+FB-085,2026-06-30,Havrekvarnen,Sustainability analyst,Sales on behalf of prospect,+1: access per brand for brand managers,,Footprint,Merged,FB-006,,RL-300,D-05,Jonas Wik,,
+FB-039,2026-07-02,Källvatten AB,Quality manager,In app widget,Read only archive after the contract ends,Keep our history if we leave.,Footprint,Declined,,2,RL-820,D-16,Pontus Grahn,2026-08-05,Not planned. Full export of your data is available at any time.
+FB-086,2026-07-03,Skogsbär Nordic,Sustainability analyst,Sales on behalf of prospect,+1: hotspots: what to do next,,Footprint,Merged,FB-015,,RL-048,D-01,Jonas Wik,,
+FB-023,2026-07-08,Ärtriket,Quality manager,CSM on behalf of customer,Label the boundary on both numbers,"Two numbers on the product page, boundary in small print.",Products,Planned,,3,RL-039,D-04,Nadia Rask,2026-09-02,Planned for October.
+FB-087,2026-07-09,Källvatten AB,Environmental coordinator,In app widget,Also asking for: save column mappings for supplier files,,Supplier,Merged,FB-014,,RL-047,D-09,Samir Haddad,,
+FB-088,2026-07-09,Ostkusten Sjömat,Purchasing manager,In app widget,Please add: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-089,2026-07-11,Färdigmat AB,Sustainability analyst,In app widget,Please add: explain the change on every article,,Products,Merged,FB-011,,RL-046,D-14,Nadia Rask,,
+FB-090,2026-07-12,Älvdals Mejeri,Purchasing manager,In app widget,Model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-091,2026-07-16,Älvdals Mejeri,Controller,In app widget,Please add: a reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-092,2026-07-19,Bergstrand Group,Controller,CSM on behalf of customer,Also asking for: save column mappings for supplier files,,Supplier,Merged,FB-014,,RL-047,D-09,Samir Haddad,,
+FB-093,2026-07-19,Skogsbär Nordic,Sustainability manager,CSM on behalf of customer,Export in our grocer's scorecard format,,Products,Merged,FB-007,,RL-401,D-06,Nadia Rask,,
+FB-094,2026-07-20,Nordkost Holding,Controller,In app widget,Also asking for: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-095,2026-07-21,Havrekvarnen,Environmental coordinator,CSM on behalf of customer,+1: hotspots: what to do next,,Footprint,Merged,FB-015,,RL-048,D-01,Jonas Wik,,
+FB-096,2026-07-23,Rapsverket,Purchasing manager,In app widget,+1: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-097,2026-07-24,GreenPulse Nordic,Controller,CSM on behalf of customer,Consolidate groups with more than four entities,,Footprint,Merged,FB-005,,RL-203,D-03,Jonas Wik,,
+FB-098,2026-07-29,Isbergs Glass,Sustainability analyst,In app widget,Also asking for: export file names with product and date,,Products,Merged,FB-035,,RL-030,D-04,Nadia Rask,,
+FB-099,2026-08-01,Sydfood Group,Sustainability manager,In app widget,Also asking for: access per brand for brand managers,,Footprint,Merged,FB-006,,RL-300,D-05,Jonas Wik,,
+FB-100,2026-08-02,Havsfisk Nord,Sustainability manager,In app widget,Quarterly supplier ranking for purchasing,,Supplier,Merged,FB-025,,RL-036,D-12,Samir Haddad,,
+FB-101,2026-08-05,Nordkost Holding,Environmental coordinator,Sales on behalf of prospect,Also asking for: see and edit unit conversions,,Products,Merged,FB-010,,RL-040,D-13,Nadia Rask,,
+FB-102,2026-08-07,Torpa Choklad,Sustainability manager,In app widget,Please add: factor version on every report line,,Footprint,Merged,FB-016,,RL-043,D-10,Jonas Wik,,
+FB-103,2026-08-08,Nordolie AS,Sustainability manager,CSM on behalf of customer,Please add: open the supplier list sorted by emissions,,Supplier,Merged,FB-003,,RL-034,D-02,Samir Haddad,,
+FB-104,2026-08-12,Ärtriket,Purchasing manager,In app widget,Also asking for: single sign on,,Platform,Merged,FB-026,,RL-020,D-23,Jonas Wik,,
+FB-019,2026-08-19,Vänerns Mejeri,Sustainability analyst,In app widget,Prompt us to add a backup user,"If our only user leaves, nobody can log in.",Footprint,Planned,,2,RL-044,D-11,Jonas Wik,2026-09-09,Planned for November.
+FB-105,2026-08-20,Färdigmat AB,Sustainability manager,CSM on behalf of customer,A reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-106,2026-08-22,Slakteri Väst,Environmental coordinator,Sales on behalf of prospect,Also asking for: templates for the new reporting scope,,Footprint,Merged,FB-034,,RL-027,D-19,Jonas Wik,,
+FB-107,2026-08-23,Myrbacka Kött,Sustainability manager,In app widget,Also asking for: export in our grocer's scorecard format,,Products,Merged,FB-007,,RL-401,D-06,Nadia Rask,,
+FB-108,2026-08-24,Havrekvarnen,Sustainability analyst,In app widget,Also asking for: carbon figure on pack for consumers,,Products,Merged,FB-037,,RL-800,D-18,Nadia Rask,,
+FB-109,2026-08-30,Myrbacka Kött,Sustainability analyst,In app widget,+1: open the supplier list sorted by emissions,,Supplier,Merged,FB-003,,RL-034,D-02,Samir Haddad,,
+FB-110,2026-08-30,Kvarnbolaget,Sustainability analyst,In app widget,A reduction plan with costs per measure,,Footprint,Merged,FB-002,,RL-700,D-01,Pontus Grahn,,
+FB-111,2026-09-06,Myrbacka Kött,Sustainability analyst,CSM on behalf of customer,Please add: change log an assurance provider can read,,Footprint,Merged,FB-017,,RL-050,D-10,Jonas Wik,,
+FB-112,2026-09-06,Vänerns Mejeri,Sustainability manager,In app widget,Please add: prompt us to add a backup user,,Footprint,Merged,FB-019,,RL-044,D-11,Jonas Wik,,
+FB-113,2026-09-07,Charkbolaget,Quality manager,Sales on behalf of prospect,Please add: model switching suppliers across the group,,Supplier,Merged,FB-001,,RL-500,D-01,Samir Haddad,,
+FB-114,2026-09-08,Granitbageriet,Sustainability analyst,CSM on behalf of customer,Supplier answers keep their unit,,Supplier,Merged,FB-024,,RL-051,D-13,Samir Haddad,,
+FB-115,2026-09-10,Nordic Brew Collective,Purchasing manager,In app widget,Who logged in this quarter,,Footprint,Merged,FB-018,,RL-041,D-05,Jonas Wik,,
+FB-116,2026-09-16,Handelsbolaget Nord,Sustainability manager,Sales on behalf of prospect,Also asking for: exports in the same units as the product page,,Products,Merged,FB-009,,RL-049,D-13,Nadia Rask,,
+FB-117,2026-09-17,Sydfood Group,Sustainability analyst,In app widget,Please add: show progress on long uploads,,Footprint,Merged,FB-004,,RL-202,D-03,Jonas Wik,,
+FB-122,2026-09-18,Nordvik Dairy,Purchasing manager,In app widget,Keep the supplier list in A to Z order,"We look suppliers up by name every day. If the default sort changes, let us keep A to Z.",Supplier,New,,2,,,Samir Haddad,,
+FB-118,2026-09-20,Renhold Nordic,Controller,CSM on behalf of customer,Also asking for: access per brand for brand managers,,Footprint,Merged,FB-006,,RL-300,D-05,Jonas Wik,,
+FB-119,2026-09-24,Handelsbolaget Nord,Quality manager,In app widget,Please add: do the first year for us,,Platform,Merged,FB-041,,,,Pontus Grahn,,
+FB-120,2026-09-25,Bergstrand Group,Purchasing manager,In app widget,Also asking for: open the supplier list sorted by emissions,,Supplier,Merged,FB-003,,RL-034,D-02,Samir Haddad,,
+FB-121,2026-09-25,Tre Kronor Foods,Quality manager,CSM on behalf of customer,Please add: single sign on,,Platform,Merged,FB-026,,RL-020,D-23,Jonas Wik,,

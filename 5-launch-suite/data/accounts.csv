@@ -1,0 +1,121 @@
+account,segment,sub_vertical,country,status,modules_or_package,arr_eur,first_contract,renewal,csm,ae,source
+Nordvik Dairy,IP,Dairy,,Active,Core + PCF + Supplier,22000,2025-08-14,,Petra Nyström,,example-data/01-cohort-customers.md
+Hallands Mejeri,IP,Dairy,,Active,Core + PCF,19000,2025-11-03,,Petra Nyström,,example-data/01-cohort-customers.md
+Fjordmelk AS,IP,Dairy,,Active,Core + PCF + Supplier,24000,2026-02-19,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Solbröd,IP,Bakery,,Churned,PCF only,14000,2025-09-08,,Lina Forsberg,,example-data/01-cohort-customers.md
+Kanel & Korn,IP,Bakery,,Churned,PCF only,12000,2025-10-21,,Lina Forsberg,,example-data/01-cohort-customers.md
+Bagerhuset Lund,IP,Bakery,,Active,Core + PCF,16000,2026-01-15,,Lina Forsberg,,example-data/01-cohort-customers.md
+Rugbrød Nord,IP,Bakery,,Churned,PCF only,13500,2025-12-02,,Lina Forsberg,,example-data/01-cohort-customers.md
+Ärtriket,IP,Plant protein,,Active,Core + PCF + Supplier,21000,2026-03-11,,Petra Nyström,,example-data/01-cohort-customers.md
+GreenPulse Nordic,IP,Plant protein,,Active,Core + PCF,18000,2026-04-02,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Havreland,IP,Plant protein,,Active,Core + PCF,17500,2025-09-30,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Rapsverket,IP,Oils and fats,,Active,Core + PCF + Supplier,26000,2025-10-09,,Petra Nyström,,example-data/01-cohort-customers.md
+Oljehuset Väst,IP,Oils and fats,,Active,Core + PCF,20000,2026-05-20,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Nordolie AS,IP,Oils and fats,,Active,Core + PCF + Supplier,23000,2025-11-18,,Petra Nyström,,example-data/01-cohort-customers.md
+Slakteri Väst,IP,Meat processing,,Active,Core + PCF + Supplier,25000,2026-01-27,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Charkbolaget,IP,Meat processing,,Active,Core + PCF,18500,2025-08-26,,Lina Forsberg,,example-data/01-cohort-customers.md
+Kjøttgruppen,IP,Meat processing,,Active,Core + PCF,21500,2026-06-04,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Bryggeri Kvarnen,IP,Brewing and beverages,,Active,Core + PCF,16500,2025-09-17,,Lina Forsberg,,example-data/01-cohort-customers.md
+Saftkällan,IP,Brewing and beverages,,Churned,PCF only,12500,2025-10-30,,Lina Forsberg,,example-data/01-cohort-customers.md
+Nordic Brew Collective,IP,Brewing and beverages,,Active,Core + PCF,19500,2026-02-05,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Källvatten AB,IP,Brewing and beverages,,At risk Q4,Core,15000,2025-12-15,,Lina Forsberg,,example-data/01-cohort-customers.md
+Sötsak AB,IP,Confectionery,,Churned,PCF only,13000,2025-09-02,,Lina Forsberg,,example-data/01-cohort-customers.md
+Karamellhuset,IP,Confectionery,,Active,PCF only,14500,2026-03-24,,Lina Forsberg,,example-data/01-cohort-customers.md
+Choklad Nord,IP,Confectionery,,Active,Core + PCF + Supplier,22500,2025-11-11,,Petra Nyström,,example-data/01-cohort-customers.md
+Havsfisk Nord,IP,Seafood,,Active,Core + PCF + Supplier,20500,2025-08-19,,Petra Nyström,,example-data/01-cohort-customers.md
+Fjordlaks AS,IP,Seafood,,Active,Core + PCF + Supplier,24500,2026-04-15,,Petra Nyström,,example-data/01-cohort-customers.md
+Skagen Seafood,IP,Seafood,,Churned,PCF only,15500,2025-10-07,,Lina Forsberg,,example-data/01-cohort-customers.md
+Färdigmat AB,IP,Ready meals,,Active,Core + PCF,17000,2026-01-08,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Måltidsfabriken,IP,Ready meals,,At risk Q4,Core + PCF,19000,2025-12-09,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Kokkens Nord,IP,Ready meals,,Active,Core + PCF,16000,2026-05-06,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Kryddhuset,IP,Spices and flavourings,,Churned,PCF only,15000,2025-09-23,,Lina Forsberg,,example-data/01-cohort-customers.md
+Aroma Nord,IP,Spices and flavourings,,Churned,PCF only,13500,2025-10-14,,Lina Forsberg,,example-data/01-cohort-customers.md
+Smakverket,IP,Spices and flavourings,,Churned,PCF only,12000,2025-11-25,,Lina Forsberg,,example-data/01-cohort-customers.md
+Essens AB,IP,Spices and flavourings,,Active,Core + PCF,14000,2026-02-12,,Lina Forsberg,,example-data/01-cohort-customers.md
+Vanilj & Co,IP,Spices and flavourings,,Churned,PCF only,12500,2025-12-18,,Lina Forsberg,,example-data/01-cohort-customers.md
+Kvarnbolaget,IP,Grains and starches,,Active,Core + PCF + Supplier,21000,2026-03-03,,Petra Nyström,,example-data/01-cohort-customers.md
+Stärkelse Nord,IP,Grains and starches,,Active,Core + PCF,18000,2025-11-06,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Havrekvarnen,IP,Grains and starches,,Active,Core + PCF,16500,2026-06-17,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Proteinfabriken,IP,Other ingredients,,Active,Core + PCF + Supplier,19500,2026-04-28,,Petra Nyström,,example-data/01-cohort-customers.md
+Sockerraffinaderiet,IP,Other ingredients,,Churned,Core + PCF,17500,2025-10-23,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Bergstrand Group,MB,Multi brand owner,,At risk Q4,Core + PCF + Supplier,42000,2025-10-02,,Petra Nyström,,example-data/01-cohort-customers.md
+Nordkost Holding,MB,Multi brand owner,,Active,Core + PCF + Supplier,38000,2025-08-07,,Petra Nyström,,example-data/01-cohort-customers.md
+Sydfood Group,MB,Multi brand owner,,Active,Core + PCF,35000,2026-01-21,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Tre Kronor Foods,MB,Multi brand owner,,At risk Q4,Core + PCF + Supplier,45000,2025-12-07,,Petra Nyström,,example-data/01-cohort-customers.md
+Vestfold Brands,MB,Multi brand owner,,Active,Core + PCF,33000,2026-05-13,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Aalborg Food Group,MB,Multi brand owner,,Churned,Core + PCF + Supplier,40000,2025-09-11,,Petra Nyström,,example-data/01-cohort-customers.md
+Lindholm Brands,MB,Multi brand owner,,Active,Core + PCF,36000,2026-02-26,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Handelsbolaget Nord,GR,Grocer,,Active,Core + PCF,41000,2026-03-18,,Petra Nyström,,example-data/01-cohort-customers.md
+Matkedjan Syd,GR,Grocer,,Active,Core,28000,2025-12-04,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Nordpack Solutions,NF,"Packaging, non food",,Churned,Core,15000,2025-10-16,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Renhold Nordic,NF,"Cleaning products, non food",,At risk Q4,Core,16000,2025-11-27,,Daniel Ohlsson,,example-data/01-cohort-customers.md
+Fjordgruppen AS,MB,Multi brand owner,NO,Customer,Group,,2026-07,,Daniel Ohlsson,Sofia Bergström,example-data/06-transcripts-cs/
+Kryddgården,IP,Spices and flavourings,SE,Customer,Supply,,2026-07,,Lina Forsberg,Anders Holm,example-data/06-transcripts-cs/
+Vänerns Mejeri,IP,Dairy,SE,Customer,Supply,,2026-08,,Daniel Ohlsson,Erik Lindqvist,example-data/06-transcripts-cs/
+Sydöst Livsmedelsgrupp,MB,Multi brand owner,SE,Customer,Group,,2026-08,,Petra Nyström,Sofia Bergström,example-data/06-transcripts-cs/
+Lysekil Konserv,IP,Seafood,SE,Customer,Supply,,2026-08,,Petra Nyström,Erik Lindqvist,4-asset-usage-agent/transcripts-w37-onward/cs/
+Nordflor Brands,MB,Multi brand owner,SE,Customer,Group,,2026-09,,Petra Nyström,Sofia Bergström,example-data/05-transcripts-sales/
+Nordisk Emballage,NF,"Packaging, non food",SE,Customer,Supply,,2026-09,,Daniel Ohlsson,Erik Lindqvist,example-data/05-transcripts-sales/
+Vinga Sjömat,IP,Seafood,SE,Customer,Supply,,2026-09-28,,Daniel Ohlsson,Erik Lindqvist,example-data/05-transcripts-sales/
+Vretstorp Konserv,IP,Ready meals,SE,Customer,Supply,,2026-09-28,,Lina Forsberg,Erik Lindqvist,example-data/05-transcripts-sales/
+Mjölkringen,IP,Dairy,SE,Customer,Supply,,2026-09-30,,Daniel Ohlsson,Erik Lindqvist,example-data/05-transcripts-sales/
+Klarälven Kvarn,IP,Grains and starches,SE,Prospect,Supply,,,,,Erik Lindqvist,example-data/05-transcripts-sales/
+Kärnhuset Group,MB,Multi brand owner,SE,Prospect,Group,,,,,Sofia Bergström,example-data/05-transcripts-sales/
+Nordlys Matgruppen,MB,Multi brand owner,NO,Prospect,Group,,,,,Sofia Bergström,4-asset-usage-agent/transcripts-w37-onward/sales/
+Björkviks Bröd,IP,Bakery,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Österlens Musteri,IP,Brewing and beverages,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Gotlandskött,IP,Meat processing,SE,Prospect,Supply,,,,,Erik Lindqvist,4-asset-usage-agent/transcripts-w37-onward/sales/
+Skärgårdsfisk,IP,Seafood,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Norrlands Bär,IP,Other ingredients,SE,Prospect,Supply,,,,,Erik Lindqvist,4-asset-usage-agent/transcripts-w37-onward/sales/
+Vetebolaget,IP,Grains and starches,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Mälardalens Grönt,IP,Other ingredients,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Hallandsost,IP,Dairy,SE,Prospect,Supply,,,,,Erik Lindqvist,4-asset-usage-agent/transcripts-w37-onward/sales/
+Solvik Dryck,IP,Brewing and beverages,SE,Prospect,Supply,,,,,Anders Holm,4-asset-usage-agent/transcripts-w37-onward/sales/
+Falkenberg Bryggeri,IP,Brewing and beverages,SE,Lost,,,,,,Anders Holm,example-data/05-transcripts-sales/
+Bohus Charkuteri,IP,Meat processing,SE,Lost,,,,,,Anders Holm,example-data/05-transcripts-sales/
+Storhaug Meieri AS,IP,Dairy,NO,Lost,,,,,,Erik Lindqvist,example-data/05-transcripts-sales/
+Ödeshög Livsmedel,MB,Multi brand owner,SE,Lost,,,,,,Sofia Bergström,example-data/05-transcripts-sales/
+Hedlunds Bageri,IP,Bakery,SE,Lost,,,,,,Anders Holm,example-data/05-transcripts-sales/
+Sörmlands Charkuteri,IP,Meat processing,SE,Lost,,,,,,Anders Holm,example-data/05-transcripts-sales/
+Tärnsjö Livs,IP,Ready meals,SE,Disqualified,,,,,,Oskar Ek,example-data/05-transcripts-sales/
+Smakbolaget,IP,Other ingredients,SE,Unknown,,,,,,,example-data/05-transcripts-sales/
+Älvdals Mejeri,IP,Dairy,SE,Active,Core + PCF,19500,2023-03-06,2027-03,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Granitbageriet,IP,Bakery,SE,Active,Core + PCF,14500,2024-05-13,2027-05,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Ostkusten Sjömat,IP,Seafood,SE,Active,Core + PCF + Supplier,21000,2023-09-18,2027-09,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Myrbacka Kött,IP,Meat processing,SE,Active,Core + PCF + Supplier,23500,2024-02-05,2027-02,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Solhaga Dryck,IP,Brewing and beverages,SE,Active,Core + PCF,15500,2024-10-14,2026-10,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Lingonriket,IP,Other ingredients,SE,Active,PCF only,12500,2025-01-20,2027-01,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Torpa Choklad,IP,Confectionery,SE,Active,Core + PCF,16000,2024-06-03,2027-06,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Bjärehalvöns Grönt,IP,Other ingredients,SE,Active,Core + PCF + Supplier,18000,2023-11-27,2026-11,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Fjällmat AB,IP,Ready meals,SE,Active,Core + PCF,17500,2024-08-19,2027-08,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Norrsken Bryggeri,IP,Brewing and beverages,SE,Active,Core + PCF,14000,2025-03-10,2027-03,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Västkustens Krydd,IP,Spices and flavourings,SE,Active,PCF only,12000,2025-02-17,2027-02,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Kustbageriet,IP,Bakery,SE,Active,Core + PCF,15000,2024-04-22,2027-04,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Dalarnas Charkuteri,IP,Meat processing,SE,Active,Core + PCF + Supplier,20500,2023-06-12,2027-06,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Ölands Kvarn,IP,Grains and starches,SE,Active,Core + PCF + Supplier,19000,2024-01-15,2027-01,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Strömsholm Foods,MB,Multi brand owner,SE,Active,Core + PCF + Supplier,39000,2023-04-24,2027-04,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Nordhavet Group,MB,Multi brand owner,NO,Active,Core + PCF + Supplier,37500,2024-09-02,2027-09,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Sjöland Brands,MB,Multi brand owner,DK,Active,Core + PCF + Supplier,34000,2024-11-11,2026-11,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Vindeln Dryck,IP,Brewing and beverages,SE,Active,Core + PCF,13500,2025-04-07,2027-04,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Rönnbäck Fisk,IP,Seafood,SE,Active,Core + PCF + Supplier,22000,2023-10-09,2026-10,Petra Nyström,,5-launch-suite/data/accounts.csv (new in step 3)
+Hjortkvarn Mejeri,IP,Dairy,SE,Active,Core + PCF + Supplier,20000,2024-03-18,2027-03,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Isbergs Glass,IP,Confectionery,SE,Active,Core + PCF,15500,2024-07-01,2027-07,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Tallbacka Ägg,IP,Other ingredients,SE,Active,Core + PCF + Supplier,17000,2023-12-04,2026-12,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Brännö Rökeri,IP,Seafood,SE,Active,PCF only,12500,2025-05-26,2027-05,Lina Forsberg,,5-launch-suite/data/accounts.csv (new in step 3)
+Skogsbär Nordic,IP,Other ingredients,FI,Active,Core + PCF + Supplier,18500,2024-12-09,2026-12,Daniel Ohlsson,,5-launch-suite/data/accounts.csv (new in step 3)
+Hälsinge Mejeri,IP,Dairy,SE,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Värmlands Potatis,IP,Other ingredients,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Kalmar Sill,IP,Seafood,SE,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Uppsala Havre,IP,Grains and starches,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Jämtlands Kött,IP,Meat processing,SE,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Bornholm Røgeri,IP,Seafood,DK,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Trøndelag Meieri,IP,Dairy,NO,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Savo Marja,IP,Other ingredients,FI,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Linköpings Pasta,IP,Ready meals,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Göta Konfektyr,IP,Confectionery,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Söderåsens Juice,IP,Brewing and beverages,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Roslags Fisk,IP,Seafood,SE,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Västgöta Bryggeri,IP,Brewing and beverages,SE,Prospect,,,,,,Anders Holm,5-launch-suite/data/pipeline.csv (new in step 3)
+Lapplands Vilt,IP,Meat processing,SE,Prospect,,,,,,Erik Lindqvist,5-launch-suite/data/pipeline.csv (new in step 3)
+Vikbolandet Foods,MB,Multi brand owner,SE,Prospect,,,,,,Sofia Bergström,5-launch-suite/data/pipeline.csv (new in step 3)
+Tornedal Group,MB,Multi brand owner,FI,Prospect,,,,,,Sofia Bergström,5-launch-suite/data/pipeline.csv (new in step 3)
