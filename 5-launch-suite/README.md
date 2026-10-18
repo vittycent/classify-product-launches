@@ -1,6 +1,6 @@
 # Launch suite
 
-A group of agents that take a product release from the roadmap to launch: decide how big the launch is, research it, set its goals, plan it and write its first email. Each agent works on its own, and each one reads what the agent before it wrote. Built on Rootline, the fictional software company for food and beverage producers used across the Agent Lab.
+A group of agents that take a product release from the roadmap to launch: decide how big the launch is, research it, set its goals, plan it and write its first email. Each agent works on its own, and each one reads what the agent before it wrote. Built on Rootline, the fictional food and beverage carbon accounting company used across the Agent Lab.
 
 Started 11 Oct 2026 by Victor Arellano, a product marketer. The GTM Tiering Agent is the first agent in a series of GTM agents for product marketers (PMMs). The suite is version 2 of a chain Victor first built at his last job; nothing here comes from that employer.
 
@@ -20,7 +20,7 @@ Started 11 Oct 2026 by Victor Arellano, a product marketer. The GTM Tiering Agen
 - **`data/`** holds what more than one agent reads: the roadmap, customer demand and teams today; company goals, launch history and people later. An agent never keeps its own copy of shared data.
 - **One folder per agent**, numbered in chain order. Each holds that agent's specs and templates.
 - **`launches/`** holds what the agents write: one folder per release, one subfolder per agent (`01-tiering`, later `02-brief` and on), and a dated file per run, plus `weekly/` for the Monday lists. It starts empty, so your first run of a release is never a rescore.
-- **`examples/`** holds Victor's worked example, dry runs and an early calibration on Rootline, as scored on Monday 5 October 2026, in the same layout. The agents never read it.
+- **`examples/`** holds Victor's worked example, dry runs, a real run and an early calibration on Rootline, as scored on Monday 5 October 2026, in the same layout. The agents never read it.
 - **Rootline context** stays where it already is: `../1-example-company/` for the company, ICP and personas, and `../example-data/` plus `../4-asset-usage-agent/transcripts-w37-onward/` for calls. `data/README.md` describes the suite's data.
 - **Answer keys** for testing live in `../answer-keys/` at the top of the repo and are never given to an agent under test.
 

@@ -4,4 +4,4 @@ Your runs land here. `/tiering-release` writes one folder per release (`RL-401-g
 
 It starts empty, so your first run of any release is a fresh assessment, not a rescore of someone else's.
 
-Victor's worked example and dry runs on Rootline are in `../examples/`, laid out the same way. Compare your run with them after you decide, not before.
+Victor's worked example, dry runs and real run on Rootline are in `../examples/`, laid out the same way. Compare your run with them after you decide, not before.

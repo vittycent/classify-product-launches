@@ -27,7 +27,7 @@ The agent's part takes about 12 minutes: in Victor's first run, 6 to gather the 
 2. Open Claude Code in the suite's folder: `cd classify-product-launches/5-launch-suite` and run `claude`. The suite's `.claude/settings.json` lets it read Rootline's calls in the folders next to it (`example-data/`, `4-asset-usage-agent/`) without asking each time.
 3. Type `/tiering-release RL-401` (Rootline's grocer scorecard export). Any id in `data/roadmap.csv` works.
 4. Read the evidence it shows you and **score first**, in one line, for example `5 4 7 5 6 8 5 · M6 · pass`.
-5. Your files land in `launches/`, which starts empty, so your run is a fresh assessment. After you decide, compare it with Victor's dry run in `examples/RL-401-grocer-scorecard-export/01-tiering/` (on an earlier rubric, so scores can differ), and with what a good run should notice in `answer-keys/`.
+5. Your files land in `launches/`, which starts empty, so your run is a fresh assessment. After you decide, compare it with Victor's real run in `examples/real-run/RL-401-grocer-scorecard-export/01-tiering/` (Tier 2 at 53), and with what a good run should notice in `answer-keys/`. The agent's scores vary a little from run to run, so yours may not match his exactly.
 
 Tell Claude the date to work on: Rootline's data stops on 4 October 2026, and the worked example runs on **Monday 5 October 2026**.
 
@@ -41,7 +41,7 @@ classify-product-launches/
     2-brief-intake/ ... 6-roadmap-watch/   the next agents in the series (planned)
     data/                         Rootline's company data for the suite
     launches/                     where your runs land (starts empty)
-    examples/                     the worked example, two dry runs and an early calibration
+    examples/                     the worked example, two dry runs, a real run and an early calibration
   answer-keys/                    what a good run notices (never give these to the agent)
   1-example-company/              Rootline: company, ICP, personas
   2-structured-database/          Rootline's customer evidence database
@@ -53,7 +53,7 @@ The numbered folders keep the numbers they have in Victor's other repos ([Struct
 
 ## Rootline: a company to test on
 
-Rootline is a fictional software company for food and beverage producers, with about 70 staff and 70 customers. Everything the agent needs is here:
+Rootline is a fictional carbon accounting company for food and beverage producers, with about 70 staff and 70 customers. Everything the agent needs is here:
 
 - **The roadmap:** 73 rows shaped like a Linear export, with the Friday project updates from each owner
 - **Customers:** 23 customer demands, 120 accounts, 379 support tickets, 122 feedback portal entries, and the calls behind them
@@ -66,7 +66,7 @@ Rootline is a fictional software company for food and beverage producers, with a
 
 ## The worked example and the dry runs
 
-`5-launch-suite/examples/` holds what the process produced on Rootline's Monday, 5 October 2026: six assessments (scenario comparison, progress messages, consolidation, the supplier sort, the grocer scorecard export, the interface refresh), the first weekly list, and an early calibration. Two of them come from dry runs where Victor sat at every stop as the PMM and scored first; the files say which parts were played. The agent never reads `examples/`, so it can't anchor on Victor's scores or treat your run as a rescore.
+`5-launch-suite/examples/` holds what the process produced on Rootline's Monday, 5 October 2026: six assessments (scenario comparison, progress messages, consolidation, the supplier sort, the grocer scorecard export, the interface refresh), the first weekly list, and an early calibration. Two of them come from dry runs where Victor sat at every stop as the PMM and scored first; the files say which parts were played. `examples/real-run/` holds Victor's first real run of `/tiering-release RL-401` on this repo (13 October 2026). The agent never reads `examples/`, so it can't anchor on Victor's scores or treat your run as a rescore.
 
 ## Use it with your own company
 
