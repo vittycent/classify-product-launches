@@ -60,7 +60,7 @@ YAML between the first two `---` lines. Every field is required; an empty value 
 | `previous_assessment` | `none` or `YYYY-MM-DD` | The file this one rescores |
 | `rescore_trigger` | `none`, `scope`, `date`, `results`, `maturity`, `deal`, `market_date`, `competitor` | Why it was scored again |
 
-**How the tier follows from the header** (the checker tests it): the total sets the tier by the lines (70, 50, 30); a borderline release may stay one tier lower; an approved override moves it up one tier; a failed revenue gate caps it at Tier 3.
+**How the tier follows from the header** (the checker tests it): the total sets the tier by the lines (70, 50, 30); a borderline release may take either tier on its line (one lower within 3 points above a line, one higher within 3 points below it, with the reason written in section 5); an approved override moves it up one tier; a failed revenue gate caps it at Tier 3.
 
 ## The sections people read
 

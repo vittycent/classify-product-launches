@@ -55,12 +55,16 @@ def header(text):
 
 
 def tier_from(total, borderline, overrides, revenue):
-    """The tiers the header allows: the line's tier, one lower when borderline just above a line,
-    one higher per approved override, never above Tier 3 when the revenue gate failed."""
+    """The tiers the header allows: the line's tier; when borderline, either tier on that line
+    (one lower just above a line, one higher just below it, with the reason written down, as
+    rubric section 7 says); one higher per approved override; never above Tier 3 when the
+    revenue gate failed."""
     line = 1 if total >= 70 else 2 if total >= 50 else 3 if total >= 30 else 4
     allowed = {line}
     if borderline and any(0 <= total - l <= 3 for l in (30, 50, 70)):
         allowed.add(min(line + 1, 4))
+    if borderline and any(0 < l - total <= 3 for l in (30, 50, 70)):
+        allowed.add(max(line - 1, 1))
     ups = sum(1 for o in overrides if o.get("status") == "approved")
     allowed = {max(1, t - ups) for t in allowed}
     if revenue == "failed":

@@ -2,7 +2,7 @@
 
 Decides how big a launch a roadmap item deserves: scores it against the company's launch rubric and returns a tier, a score and the reasons, for a person to approve.
 
-**Status, 12 Oct 2026: building.** `/tiering-release` is built (`../.claude/skills/tiering-release/SKILL.md`), with the handoff contract (`handoff.md`) and a checker for every file it writes (`tools/check_assessment.py`). `/tiering-weekly`, `/tiering-setup` and `/tiering-calibrate` come next. The process was proven by hand first: a worked example on Rootline (four releases and a weekly list) and two dry runs with a product marketer at every stop (`../launches/`).
+**Status, 12 Oct 2026: building.** `/tiering-release` is built (`../.claude/skills/tiering-release/SKILL.md`), with the handoff contract (`handoff.md`) and a checker for every file it writes (`tools/check_assessment.py`). `/tiering-weekly`, `/tiering-setup` and `/tiering-calibrate` come next. The process was proven by hand first: a worked example on Rootline (four releases and a weekly list) and two dry runs with a product marketer at every stop (`../examples/`).
 
 ## Run it
 

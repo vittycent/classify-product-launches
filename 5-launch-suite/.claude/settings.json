@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "../example-data/",
+      "../4-asset-usage-agent/"
+    ]
+  }
+}
