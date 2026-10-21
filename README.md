@@ -17,7 +17,7 @@ This agent scores each release on the roadmap against your own launch rubric and
 
 It gathers the evidence from your sources, **asks you to score first** so it doesn't anchor you, compares its scores with yours, and writes a dated assessment with an explainer for your product manager. **You decide every tier.** The agent never approves one on its own, and it never answers for your PM.
 
-What it writes is read by two people and by the agents that come next: the PMM, the product manager, and the next agent in the chain (brief intake), which starts the launch brief from it. The format is fixed and checked: see `5-launch-suite/1-gtm-tiering-agent/handoff.md`.
+What it writes is read by two people and by the agents that come next: the PMM, the product manager, and the next agent in the chain (the Launch Brief agent), which starts the launch brief from it. The format is fixed and checked: see `5-launch-suite/1-gtm-tiering-agent/handoff.md`.
 
 ## Try it on Rootline
 
@@ -31,14 +31,17 @@ The agent's part takes about 12 minutes: in Victor's first run, 6 to gather the 
 
 Tell Claude the date to work on: Rootline's data stops on 4 October 2026, and the worked example runs on **Monday 5 October 2026**.
 
+**Then try the Monday list.** Type `/tiering-weekly. Today is Monday 5 October 2026.` On a first run it reads the whole quarter, scores every release, and sorts each one onto the routine list, which you approve in one pass, or onto the full path, where you score first with `/tiering-release`. It takes about 6 minutes. Compare its list with `examples/weekly/tiering-2026-W41.md`, made by hand on the same data.
+
 ## What is in the box
 
 ```
 classify-product-launches/
   5-launch-suite/                 the suite
     .claude/skills/tiering-release/   the agent: /tiering-release
+    .claude/skills/tiering-weekly/    the Monday list: /tiering-weekly
     1-gtm-tiering-agent/          design, handoff, setup interview, templates, a checker
-    2-brief-intake/ ... 6-roadmap-watch/   the next agents in the series (planned)
+    2-launch-brief/ ... 6-roadmap-watch/   the next agents in the series (planned)
     data/                         Rootline's company data for the suite
     launches/                     where your runs land (starts empty)
     examples/                     the worked example, two dry runs, a real run and an early calibration
@@ -79,10 +82,10 @@ Rootline is a fictional carbon accounting company for food and beverage producer
 | Part | State |
 |---|---|
 | `/tiering-release`: tier one release now | Built |
-| `/tiering-weekly`: the Monday list | Designed, being built |
+| `/tiering-weekly`: the Monday list | Built |
 | `/tiering-setup`: the setup interview as a command | Designed; for now, use the interview file |
 | `/tiering-calibrate`: compare tiers with results each quarter | Designed; an early run is in `examples/calibration/` |
-| Agents 2 to 6: brief intake, goal setter, launch planner, launch email writer, roadmap watch | Planned |
+| Agents 2 to 6: Launch Brief, goal setter, launch planner, launch email writer, roadmap watch | Planned |
 
 Victor will publish updates here as the series grows.
 

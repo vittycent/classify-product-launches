@@ -39,11 +39,11 @@ If the user gave no release id, ask for one. If the roadmap has no such id, say 
 - **Maturity** below 5: provisional, and name the rescore. **Revenue** failed: Tier 3 at most.
 - **Overrides**, read by the design's rules: a deal waits on a release only by the newest statement about the deal; a market date counts only for a current customer's date. Write each override as `proposed`, `does not fire` or, once decided, `approved` or `not approved`. Never apply one yourself.
 - **The explainer** (section 3), for the PM, in plain words with no rubric vocabulary: the tier in one sentence with its job; three reasons from the questions that add the most points (a tie goes to the one closest to its maximum, then the one asked first), each with the reason behind its weight; what would change it, with dates; one question for the PM per score that rests on thin evidence or an open gap.
-- Write `tiering-YYYY-MM-DD.md` from the template, `status: draft`. Run `python3 1-gtm-tiering-agent/tools/check_assessment.py <the file>` and fix anything it reports.
+- Write `tiering-YYYY-MM-DD.md` from the template, `handoff_version: 2`, `status: draft`, with `ship_date` (the owner's newest dated statement, or `not dated`) and `added_from_higher_tier: none` until the PMM decides. Run `python3 1-gtm-tiering-agent/tools/check_assessment.py <the file>` and fix anything it reports.
 
 **6. Stop: the PM.** The questions go to the product manager, a person. **You never answer for the PM.** Ask the PMM to bring back the answers, or to decide without them and say why. Record the answers in section 5 with the PM's name and the date.
 
-**7. Stop: the PMM decides.** Ask for the tier and a reason, the borderline call, any override, and any asset added from a higher tier's row (with its reason). If someone asked for a different tier (a CEO, a PM, sales), record who and what. Update the file: `status: approved`, `decided_by`, `decided_on`, sections 1, 5 and 6. Tier 1 needs leadership sign off: `leadership_signoff: pending` until it is given. Run the checker again.
+**7. Stop: the PMM decides.** Ask for the tier and a reason, the borderline call, any override, and any asset added from a higher tier's row (with its reason). If someone asked for a different tier (a CEO, a PM, sales), record who and what. Update the file: `status: approved`, `decided_by`, `decided_on`, sections 1, 5 and 6, and `added_from_higher_tier`: each added asset with its tier row and the PMM's reason, or `none`. Tier 1 needs leadership sign off: `leadership_signoff: pending` until it is given. Run the checker again.
 
 ## Rules
 

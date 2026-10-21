@@ -4,8 +4,11 @@
 
 Checks every tiering-*.md under the paths given: the header has every field, each value is
 allowed, and the tier follows from the total, the borderline rule, approved overrides and the
-revenue gate. Weekly lists (tiering-YYYY-Www.md) get a header check. Prints one line per file
-and exits 1 if any file fails. Standard library only.
+revenue gate. Handoff version 2 adds ship_date and added_from_higher_tier; version 1 files, such
+as the published runs, are still checked as version 1. Weekly lists (tiering-YYYY-Www.md) get a
+header check, and from version 2 every row: tier, total and ship date on the routine list, a ship
+date and an assessment link on the full path, a known trigger on every rescore. Prints one line
+per file and exits 1 if any file fails. Standard library only.
 """
 import os
 import re
@@ -18,6 +21,8 @@ FIELDS = ["handoff", "handoff_version", "release_id", "title", "assessed", "rubr
           "previous_assessment", "rescore_trigger"]
 WEEKLY = ["handoff", "handoff_version", "week", "run", "rubric_version", "status", "approved_by", "approved_on"]
 DATE = re.compile(r"^\d{4}-\d\d-\d\d$")
+SHIPS = re.compile(r"^(\d{4}-\d\d-\d\d|not dated)( \(roadmap: [^)]+\))?$")
+TRIGGERS = ("scope", "date", "results", "maturity", "deal", "market date", "market_date", "competitor")
 
 
 def scalar(v):
@@ -77,8 +82,25 @@ def check_assessment(h):
     missing = [f for f in FIELDS if f not in h]
     if missing:
         return ["missing: " + ", ".join(missing)]
-    if h["handoff"] != "tiering-assessment" or h["handoff_version"] != "1":
+    if h["handoff"] != "tiering-assessment" or h["handoff_version"] not in ("1", "2"):
         errs.append("handoff or version")
+    if h["handoff_version"] == "2":
+        missing2 = [f for f in ("ship_date", "added_from_higher_tier") if f not in h]
+        if missing2:
+            return errs + ["missing: " + ", ".join(missing2)]
+        if h["ship_date"] != "not dated" and not DATE.match(h["ship_date"]):
+            errs.append("ship_date")
+        added = h["added_from_higher_tier"]
+        if added != "none":
+            if not isinstance(added, list) or not added:
+                errs.append("added_from_higher_tier")
+            else:
+                for a in added:
+                    ft = a.get("from_tier", "")
+                    if not a.get("asset") or not a.get("reason") or not ft.isdigit():
+                        errs.append("an added asset needs asset, from_tier and reason")
+                    elif h["tier"].isdigit() and not 1 <= int(ft) < int(h["tier"]):
+                        errs.append("an added asset must come from a higher tier's row")
     if not re.match(r"^RL-\d{3}$", h["release_id"]):
         errs.append("release_id")
     if not DATE.match(h["assessed"]):
@@ -131,15 +153,73 @@ def check_assessment(h):
     return errs
 
 
-def check_weekly(h):
+def table_rows(text, number):
+    """The rows of section <number>'s table that start with a release id, as lists of cells."""
+    m = re.search(r"^## %d\..*?(?=^## \d+\.|\Z)" % number, text, re.M | re.S)
+    if not m:
+        return None
+    rows = []
+    for line in m.group(0).splitlines():
+        if re.match(r"^\|\s*RL-\d{3}\s*\|", line):
+            rows.append([c.strip().replace("**", "") for c in line.strip().strip("|").split("|")])
+    return rows
+
+
+def check_weekly(h, text=""):
     missing = [f for f in WEEKLY if f not in h]
     if missing:
         return ["missing: " + ", ".join(missing)]
     errs = []
-    if h["handoff"] != "tiering-weekly" or not re.match(r"^\d{4}-W\d\d$", h["week"]) or not DATE.match(h["run"]):
-        errs.append("handoff, week or run")
+    if h["handoff"] != "tiering-weekly" or h["handoff_version"] not in ("1", "2") or not re.match(r"^\d{4}-W\d\d$", h["week"]) or not DATE.match(h["run"]):
+        errs.append("handoff, version, week or run")
     if h["status"] not in ("draft", "approved"):
         errs.append("status")
+    if h["status"] == "approved" and not (h["approved_by"] and DATE.match(h["approved_on"])):
+        errs.append("approved without approved_by and approved_on")
+    if h["handoff_version"] != "2":
+        return errs
+    routine, full, rescores = table_rows(text, 1), table_rows(text, 2), table_rows(text, 3)
+    if routine is None or full is None or rescores is None:
+        return errs + ["sections 1 to 3 are not all there"]
+    full_ids = {r[0] for r in full}
+    for r in routine:
+        if len(r) != 7:
+            errs.append(f"{r[0]}: the routine row needs 7 cells")
+            continue
+        rid, _, tier, total, ships, why, move = r
+        try:
+            t, tot = int(tier), float(total)
+        except ValueError:
+            errs.append(f"{rid}: tier or total not a number")
+            continue
+        if not tot < 47 or (tot * 2) != int(tot * 2):
+            errs.append(f"{rid}: a routine total must be under 47, in half points")
+        want = 4 if tot < 30 or tot <= 33 else 3
+        if t != want:
+            errs.append(f"{rid}: tier {t} does not follow from total {tot:g} on the routine list")
+        if 30 <= tot <= 33 and "borderline" not in why.lower():
+            errs.append(f"{rid}: within 3 points above the Tier 3 line, so it must say borderline")
+        if not SHIPS.match(ships):
+            errs.append(f"{rid}: ship date")
+        if move.lower().startswith("yes") and rid not in full_ids:
+            errs.append(f"{rid}: moved to the full path but not listed there")
+    for r in full:
+        if len(r) != 5:
+            errs.append(f"{r[0]}: the full path row needs 5 cells")
+            continue
+        rid, _, ships, _, assessment = r
+        if not SHIPS.match(ships):
+            errs.append(f"{rid}: ship date")
+        if not (re.search(r"\(([^)]*tiering-\d{4}-\d\d-\d\d\.md)\)", assessment) or re.fullmatch(r"to come(, since \d{4}-W\d\d)?", assessment, re.I)):
+            errs.append(f"{rid}: the assessment must be a link or 'to come'")
+    for r in rescores:
+        if len(r) != 5:
+            errs.append(f"{r[0]}: the rescore row needs 5 cells")
+            continue
+        if not any(r[1].lower().startswith(t) for t in TRIGGERS):
+            errs.append(f"{r[0]}: unknown trigger")
+        if not SHIPS.match(r[3]):
+            errs.append(f"{r[0]}: ship date")
     return errs
 
 
@@ -154,8 +234,9 @@ def main(paths):
     bad = 0
     for f in sorted(files):
         try:
-            h = header(open(f, encoding="utf-8").read())
-            errs = check_weekly(h) if h.get("handoff") == "tiering-weekly" else check_assessment(h)
+            text = open(f, encoding="utf-8").read()
+            h = header(text)
+            errs = check_weekly(h, text) if h.get("handoff") == "tiering-weekly" else check_assessment(h)
         except Exception as e:  # noqa: BLE001, a broken header is a failure, not a crash
             errs = [f"unreadable header: {e}"]
         bad += bool(errs)

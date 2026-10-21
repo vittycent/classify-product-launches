@@ -2,7 +2,7 @@
 
 _Draft 0.1, 11 Oct 2026, approved. Nothing here is built yet. Examples use Rootline, the fictional company in this kit._
 
-**What it does.** For each release on the roadmap, the agent recommends a launch tier, explains it in words a product manager can use, and keeps a dated record of every assessment and decision. Product marketing decides. It is the first agent in the launch suite: brief intake, the goal setter and the launch planner come next and read what it writes.
+**What it does.** For each release on the roadmap, the agent recommends a launch tier, explains it in words a product manager can use, and keeps a dated record of every assessment and decision. Product marketing decides. It is the first agent in the launch suite: the Launch Brief agent, the goal setter and the launch planner come next and read what it writes.
 
 **What it is built on.** The rubric your setup interview produces (`setup-interview.md`): seven scored questions with weights, two gates, overrides, tier lines, the evidence order, the sources and the rule for conflicts, the trigger table, and who decides.
 
@@ -27,7 +27,7 @@ Two things from the setup have to work together: product marketing scores before
 
 **Which path.** The agent scores every release from the evidence first, and keeps its score to itself. A release goes on the **routine path** if the agent's total is under 47 (more than 3 points below the Tier 2 line) and no gate or override is in play. Everything else goes on the **full path**: anything that could be Tier 1 or 2, anything close to the Tier 2 line, anything where the revenue gate, the maturity gate or an override applies.
 
-**Two details the first run settled.** A gate is in play when it changes the outcome: a failed revenue gate caps at Tier 3, so it is in play only from a total of 50 up; below that it changes nothing, and most small updates fail it. On the routine list, a total within 3 points of the Tier 3 line is shown in the lower tier and marked borderline; you can move it to the full path like any other.
+**Three details the first runs settled.** A gate is in play when it changes the outcome: a failed revenue gate caps at Tier 3, so it is in play only from a total of 50 up; below that it changes nothing, and most small updates fail it. The maturity gate works the same way: it is in play from a total of 47 up, or while a release is still being scoped (discovery or design); a small update that is planned or in build stays on the routine list. On the routine list, a total within 3 points of the Tier 3 line is shown in the lower tier and marked borderline; you can move it to the full path like any other.
 
 **The full path**
 
@@ -160,4 +160,10 @@ Tier 1 to 4, with 1 the biggest.
 
 ## 10. What the next agent gets
 
-Brief intake reads the newest approved tiering file for a release: the header, the explainer and the evidence links. The exact handoff is set when brief intake is built, using what the tiering agent teaches.
+The Launch Brief starts only from this agent's approved files; it never asks for a tier.
+
+- **For a Tier 1, 2 or 3 release,** `/brief-release-tag <id>` reads the newest approved assessment: the tier, whether it's provisional, the competitor flag, the ship date, any asset added from a higher tier, the evidence and its sources, and the explainer.
+- **For Tier 4,** `/brief-monthly <month>` reads the approved weekly lists (the routine rows at Tier 4 and their ship dates) and any approved full path assessment at Tier 4 shipping that month.
+- **Back the other way,** the Monday run reads each approved brief's rescore triggers.
+
+The fields are in `handoff.md`.

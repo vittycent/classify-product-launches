@@ -1,6 +1,6 @@
 ---
 handoff: tiering-assessment
-handoff_version: 1
+handoff_version: 2
 release_id: <roadmap id, e.g. RL-500>
 title: <release title as on the roadmap>
 assessed: <YYYY-MM-DD>
@@ -23,6 +23,11 @@ decided_on: <YYYY-MM-DD, once approved>
 leadership_signoff: <not needed | pending | given>
 previous_assessment: <none | YYYY-MM-DD>
 rescore_trigger: <none | scope | date | results | maturity | deal | market_date | competitor>
+ship_date: <YYYY-MM-DD, the owner's newest dated statement | not dated>
+added_from_higher_tier: <none, or a list, set when the PMM decides>
+  - asset: <e.g. update to the messaging>
+    from_tier: <1 | 2 | 3, a higher tier than this one>
+    reason: <the PMM's reason, in their words>
 ---
 
 <!--
@@ -118,7 +123,7 @@ _The row for this tier from the trigger table in `data/rubric.md`._
 |---|---|---|---|---|
 | <from the rubric> | <from the rubric> | <from the rubric> | <from the rubric> | <from the rubric> |
 
-**For this release:** <launch date or target>, so work starts by <date>.
+**For this release:** <launch date or target>, so work starts by <date>. <No asset added from a higher tier's row. | Added from the Tier <n> row: <asset>, because <the PMM's reason>. The same goes in the header's `added_from_higher_tier`.>
 
 ## 7. Changes since the last assessment
 
