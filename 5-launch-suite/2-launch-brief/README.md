@@ -1,5 +1,5 @@
 # 2. Launch Brief
 
-Starts from the GTM Tiering Agent's approved files and writes the foundation a launch is built on, sized by its tier: which claims the release makes stronger, what is new, the evidence behind both, and the questions still open. For the PMM and the product manager.
+Starts from the GTM Tiering Agent's approved file and writes the launch brief for a release, sized by its tier: what it is, who cares most, why it matters to them, what would convince them, which customers to tell first, and what not to promise.
 
-**Status:** being built. The tiering files it starts from are ready: `../1-gtm-tiering-agent/handoff.md` says what it reads.
+**Status:** built and published in its own repo: [product-launch-brief](https://github.com/vittycent/product-launch-brief). It carries Rootline's data, so you can try it without running this agent first.

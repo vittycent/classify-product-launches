@@ -22,7 +22,7 @@ FIELDS = ["handoff", "handoff_version", "release_id", "title", "assessed", "rubr
 WEEKLY = ["handoff", "handoff_version", "week", "run", "rubric_version", "status", "approved_by", "approved_on"]
 DATE = re.compile(r"^\d{4}-\d\d-\d\d$")
 SHIPS = re.compile(r"^(\d{4}-\d\d-\d\d|not dated)( \(roadmap: [^)]+\))?$")
-TRIGGERS = ("scope", "date", "results", "maturity", "deal", "market date", "market_date", "competitor")
+TRIGGERS = ("scope", "date", "results", "maturity", "deal", "market date", "market_date", "competitor", "evidence")
 
 
 def scalar(v):

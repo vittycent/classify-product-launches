@@ -129,7 +129,7 @@ The part you take to the product manager. Plain words, no rubric vocabulary.
 
 - **Every Monday,** `/tiering-weekly`. Until the roadmap watch agent exists, it compares the roadmap and project updates with its own last run.
 - **On demand,** `/tiering-release <id>`.
-- **A release is scored again** when scope is added or cut, the date moves into another quarter, results come in from customers testing it, it becomes ready to test with customers, a big deal or market date appears or falls away, or a competitor launches the same thing.
+- **A release is scored again** when scope is added or cut, the date moves into another quarter, results come in from customers testing it, it becomes ready to test with customers, a big deal or market date appears or falls away, or a competitor launches the same thing. Or when the Launch Brief finds evidence that it is bigger or smaller than its tier (`evidence`).
 - **And after it ships:** at every quarterly calibration, for two quarters, with its results.
 
 ## 7. Where a person decides
@@ -164,6 +164,6 @@ The Launch Brief starts only from this agent's approved files; it never asks for
 
 - **For a Tier 1, 2 or 3 release,** `/brief-release-tag <id>` reads the newest approved assessment: the tier, whether it's provisional, the competitor flag, the ship date, any asset added from a higher tier, the evidence and its sources, and the explainer.
 - **For Tier 4,** `/brief-monthly <month>` reads the approved weekly lists (the routine rows at Tier 4 and their ship dates) and any approved full path assessment at Tier 4 shipping that month.
-- **Back the other way,** the Monday run reads each approved brief's rescore triggers.
+- **Back the other way,** the Monday run reads the rescore triggers in each approved brief and monthly note. A routine release with one goes to the full path.
 
 The fields are in `handoff.md`.

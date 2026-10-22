@@ -1,6 +1,6 @@
 # Classify product launches: the GTM Tiering Agent
 
-**From Victor Arellano, product marketer.** A Claude Code agent that decides how big a product launch should be, and explains why in words your product manager can use. It is **the first agent in a series of GTM agents for product marketers (PMMs).** Built and tested on **fictional data** (a made up company called Rootline), so you can try it today without any of your own company's data.
+**From Victor Arellano, product marketer.** A Claude Code agent that decides how big a product launch should be, and explains why in words your product manager can use. It is **agent 1 of 4 in a series of GTM agents for product marketers (PMMs).** Built and tested on **fictional data** (a made up company called Rootline), so you can try it today without any of your own company's data.
 
 ## What this is, in one minute
 
@@ -17,7 +17,7 @@ This agent scores each release on the roadmap against your own launch rubric and
 
 It gathers the evidence from your sources, **asks you to score first** so it doesn't anchor you, compares its scores with yours, and writes a dated assessment with an explainer for your product manager. **You decide every tier.** The agent never approves one on its own, and it never answers for your PM.
 
-What it writes is read by two people and by the agents that come next: the PMM, the product manager, and the next agent in the chain (the Launch Brief agent), which starts the launch brief from it. The format is fixed and checked: see `5-launch-suite/1-gtm-tiering-agent/handoff.md`.
+What it writes is read by two people and by the agents that come next: the PMM, the product manager, and the next agent in the chain, the Launch Brief ([product-launch-brief](https://github.com/vittycent/product-launch-brief)), which starts the launch brief from it. The format is fixed and checked: see `5-launch-suite/1-gtm-tiering-agent/handoff.md`.
 
 ## Try it on Rootline
 
@@ -41,7 +41,7 @@ classify-product-launches/
     .claude/skills/tiering-release/   the agent: /tiering-release
     .claude/skills/tiering-weekly/    the Monday list: /tiering-weekly
     1-gtm-tiering-agent/          design, handoff, setup interview, templates, a checker
-    2-launch-brief/ ... 6-roadmap-watch/   the next agents in the series (planned)
+    2-launch-brief/ ... 6-roadmap-watch/   notes on the next agents (the brief itself is in product-launch-brief)
     data/                         Rootline's company data for the suite
     launches/                     where your runs land (starts empty)
     examples/                     the worked example, two dry runs, a real run and an early calibration
@@ -85,7 +85,8 @@ Rootline is a fictional carbon accounting company for food and beverage producer
 | `/tiering-weekly`: the Monday list | Built |
 | `/tiering-setup`: the setup interview as a command | Designed; for now, use the interview file |
 | `/tiering-calibrate`: compare tiers with results each quarter | Designed; an early run is in `examples/calibration/` |
-| Agents 2 to 6: Launch Brief, goal setter, launch planner, launch email writer, roadmap watch | Planned |
+| Agent 2: the Launch Brief | Built, in [product-launch-brief](https://github.com/vittycent/product-launch-brief) |
+| Agents 3 and 4: goal setter, launch planner | Planned |
 
 Victor will publish updates here as the series grows.
 
